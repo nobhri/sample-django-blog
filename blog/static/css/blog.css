@@ -3,20 +3,29 @@
             margin-top: 0;
             padding: 20px 20px 20px 40px;
         }
-
-        .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+        .page-footer {
+            background-color: #AA4465;
+            margin-top: 0;
+            padding: 20px 20px 20px 40px;
+        }
+        .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active{
             color: #f0dfad;
             font-size: 36pt;
             text-decoration: none;
         }
-
+        .page-header table, .page-footer table{
+            color: #f0dfad;
+            font-size: 20pt;
+            text-decoration: none;
+            border-collapse: separate;
+            border-spacing: 20px;
+        }
         .content {
             margin-left: 40px;
         }
 
-        h1, h2, h3, h4 {
+        h1, h2, h3, h4 , .page-header table td, .page-footer table td{
             font-family: 'Alfa Slab One', cursive;
-            /* font-family: 'M PLUS Rounded 1c', sans-serif; */
         }
         h2, h3, h4 {
             color: #000000;
