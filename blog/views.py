@@ -12,3 +12,6 @@ def post_detail(request,pk):
 
 def about(request):
     return render(request, 'blog/about.html')
+
+def music(request):
+    return render(request, 'blog/music.html')
