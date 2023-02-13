@@ -56,6 +56,10 @@
         .post h2 a, .post h2 a:visited {
             color: #000000;
         }
+        .date{
+            font-family: 'Alfa Slab One', cursive;
+            font-size: 15pt;
+        }
         body {
             background-color: #edf0da;
         }
