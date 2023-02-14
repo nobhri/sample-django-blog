@@ -1,4 +1,5 @@
 {% extends 'blog/base.html' %}
+{% load markdown_extras %}
 
 {% block content %}
 <div class="post">
@@ -8,7 +9,7 @@
         {{ post.published_date|date:"Y-m-j H:i:s" }}
     </div>
     {% endif %}
-    <p>{{ post.text|linebreaksbr }}</p>
+    <div class="blog_text">{{ post.text| markdown | safe }}</div>
 </div>
 
 {% endblock %}

@@ -32,6 +32,13 @@
         h2, h3, h4 {
             color: #ffffff;
             background-color: #242F62;}
+        .blog_text h1,.blog_text h2,.blog_text h3,.blog_text h4, .blog_text h5{
+            font-family: 'Noto Sans JP', sans-serif;
+            font-style: Black 900;
+            font-weight: bold;
+            color: #000000;
+            background-color: #ffffff;}
+        
         .date {
             color: #000000;
         }
