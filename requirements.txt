@@ -13,7 +13,6 @@ markdown-checklist==0.4.4
 mypy-extensions==1.0.0
 packaging==23.0
 pathspec==0.11.0
-pkg_resources==0.0.0
 platformdirs==3.0.0
 pluggy==1.0.0
 pytest==7.2.1
